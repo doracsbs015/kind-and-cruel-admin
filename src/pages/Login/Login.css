@@ -1,0 +1,53 @@
+/* Login page wrapper with dashboard-bg.jpg */
+.login-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('/images/dashboard-bg.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; /* optional: keeps background fixed when scrolling */
+}
+
+/* Login box stays white and professional */
+.login-box {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background: #e477bc; /* coffee brown */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #e24697;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}

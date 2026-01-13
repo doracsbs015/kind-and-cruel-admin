@@ -1,0 +1,23 @@
+/* Make the background fixed for the whole website */
+body {
+  margin: 0;
+  padding: 0;
+  background: url('/images/dashboard-bg.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed; /* keeps it fixed */
+  min-height: 100vh;
+  font-family: sans-serif; /* optional */
+}
+
+/* Optional: ensure main content doesn’t hide behind header */
+.dashboard-content {
+  padding-top: 100px; /* adjust if header is fixed */
+}
+
+.welcome {
+  background: rgba(255,255,255,0.85);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}

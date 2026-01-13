@@ -1,0 +1,73 @@
+/* Whole feedback section */
+.feedback-section {
+  padding: 40px;
+}
+
+/* Title */
+.feedback-title {
+  display: inline-block;
+  background: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  color: #3b2f2f; /* coffee brown */
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Cards container */
+.feedback-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+/* Individual feedback card */
+.feedback-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  transition: 
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+/* Hover effect */
+.feedback-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+/* Feedback message */
+.feedback-card .message {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+/* Name + date row */
+.feedback-card .info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #777;
+}
+
+/* Author emphasis */
+.author {
+  font-weight: 500;
+}
+
+/* Empty state */
+.empty-text {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  color: #555;
+  width: fit-content;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
